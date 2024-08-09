@@ -1,0 +1,83 @@
+.promotion {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    height: 553px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    display: inline-flex;  
+    flex-direction: column;
+    align-items: left;
+    width: 589px;
+    height: 400px;
+    margin: 10px;
+    padding-left: 30px;
+    font: inherit;
+} 
+
+.img-shoe {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title-text {
+    display: flex;
+    align-self: flex-start;
+    font-size: 17px;
+    color: #C92071;
+    font-weight: bold;
+    width: 126px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    font-size: 55px;
+    color: rgb(34, 33, 33);
+    width: 585px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 21px;
+    color: darkslategray;
+    margin-bottom: 10px;
+    width: 589px;
+    height: 112px;
+    margin-top: 40px;
+    margin-bottom: 30px;    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C92071;
+    color: white;
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #af1c63;
+}
